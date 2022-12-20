@@ -19,8 +19,8 @@
                 <div class="card-header">{{$train->id}}</div>
                 <div class="card-body">
                     <h3>Azienda: {{$train->azienda}}</h3>
-                    <h4>{{$train->stazione_partenza}} {{$train->orario_partenza}} </h4>
-                    <h4>{{$train->stazione_arrivo}} {{$train->orario_arrivo}} </h4>
+                    <h4>Partenza: {{$train->stazione_partenza}} | ora: {{$train->ora_partenza}} </h4>
+                    <h4>Arrivo: {{$train->stazione_arrivo}} | ora: {{$train->ora_arrivo}} </h4>
                     <h5>Numero carrozze: {{$train->numero_carrozze}} </h5>
 
 
